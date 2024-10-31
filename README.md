@@ -1,6 +1,16 @@
 ОТВЕТЫ НА ВОПРОСЫ.
 1. Question: What does the code on lines 25 and 29 do?
+– (25) Указывает, будет ли система автоматически генерировать ограничения (constraints) для данного представления. В нашем случве мы отключили автоматическое создание ограничений. Мы сами задаём все необходимые ограничения для этого представления с помощью Auto Layout.
+– (29) Этот метод добавляет метку title как подвид к основному представлению view, обеспечивает его отображение на экране, без этого шага метка не будет видна пользователю.
+
 2. Question: What is a safe area layout guide?
+– Safe область интерфейса на которой нет системных элементов интерфейса по типу чёлки айфона, времени, заряда, оператора, нижняя полосочка для выхода из приложения и тд.
+
 3. Question: What is [weak self] on line 23 and why it is important?
+–
+
 4. Question: What does clipsToBounds mean?
-5. Question: What is the valueChanged type? What is Void and what is Double?
+– clipsToBounds = true значит что все элементы внутри стека, которые могут выходить за его границы, если они больше по размеру, будут обрезаны и не будут видны за пределами стека.
+
+6. Question: What is the valueChanged type? What is Void and what is Double?
+–
